@@ -1,6 +1,7 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  font-size: 1.2em;
+  background-color: #f4f4f4;
+  color: #383838;
 }
 
 nav {
@@ -10,17 +11,68 @@ nav {
   width: 100%;
 }
 
+
+/*** individual type treatment ***/
+/* This section includes all of the
+individual size changes for the content type.
+the overal size control is in the 'body'
+DOES NOT INCLUDE NAV */
+
+
+figcaption {
+  font-size: 75%;
+}
+
+h1 {
+  font-size: 260%;
+  line-height: 1.6;
+}
+
+h3 {
+  font-size: 160%;
+  line-height: 1.3;
+}
+
+
+.author {
+  font-style: italic;
+  font-size: 100%;
+  line-height: 3.5;
+}
+
+
+p {
+  font-size: 100%;
+}
+
+
+.story-text {
+  line-height: 1.4;
+}
+
+
+/*** Image w/ attributes ***/
+
+
 .logo {
   margin: 20px;
   width: 100px;
 }
 
+/*** ?? WHAT IS THIS ?? ***/
+/* Not entirely sure why '.large-pic' is here. it
+is not linked to anything in the HTML */
+
 .large-pic {
   width: 100%;
 }
 
+/* I added padding to the '.medium-pic' so it would not be
+partially covered up by the nav. */
+
 .medium-pic {
   width: 70%;
+  padding-top: 5em;
 }
 
 .left, .right {
@@ -32,6 +84,11 @@ nav {
   float: right;
 }
 
+
+/*** Navigation ***/
+/* also navigation customization */
+
+
 ul {
   list-style-type: none;
   float: right;
@@ -41,6 +98,14 @@ li {
   float: right;
   padding: 30px;
 }
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {color: #525252;}
+a:hover
 
 article {
   padding-top: 100px;
